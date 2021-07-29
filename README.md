@@ -4,4 +4,4 @@
 - Link: https://www.udemy.com/course/nextjs-e-react/
 - Criado por: Leonardo Moura Leitao e Cod3r Cursos Online
 ## Projetos
- Exercicios: Guia para introdução ao React;
+- Exercicios: Guia para introdução ao React;
