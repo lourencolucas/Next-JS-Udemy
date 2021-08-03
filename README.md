@@ -6,3 +6,15 @@
 ## Projetos
 - Exercicios: Guia para introdução ao React;
 - Tabuleiro: Mini projeto para criação de um tabuleiro usando Next.js e React;
+## Para instalar as dependências dev os projetos
+```bash
+npm install
+# or
+yarn
+```
+## Para executar os projetos em suas respectivas pastas
+```bash
+npm run dev
+# or
+yarn dev
+```
