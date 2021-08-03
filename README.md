@@ -6,7 +6,7 @@
 ## Projetos
 - Exercicios: Guia para introdução ao React;
 - Tabuleiro: Mini projeto para criação de um tabuleiro usando Next.js e React;
-## Para instalar as dependências dev os projetos
+## Para instalar as dependências dev dos projetos
 ```bash
 npm install
 # or
