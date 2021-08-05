@@ -1,7 +1,8 @@
 import { useState } from "react"
 
+//React Hooks
 export default function mouse() {
-    //Modo mais simples
+    //Modo mais simples e linguagem apropriada
     const [x, setX] = useState(0)
     //Modo mais complexo
     const arrayY = useState(0)
