@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 export default function params() {
     const router = useRouter()
@@ -11,6 +12,9 @@ export default function params() {
         <div>
             <h1>Rotas params:</h1>
             <h2> ID: {id} e Nome: {nome}</h2>
+            <Link href="/rotas">
+                <button>Voltar</button>
+            </Link>
         </div>
     )
 }
