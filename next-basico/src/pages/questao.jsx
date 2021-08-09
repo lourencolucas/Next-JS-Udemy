@@ -8,11 +8,24 @@ export default function questao() {
             .then(resp => resp.json())
             .then(setQuestao)
     }, [])
+
+    function renderizarRespostas() {
+        if (questao) {
+            return questao.respostas.map((resp, i) => {
+                return <li key={i}>{resp}</li>
+            })
+        }
+        return false
+    }
+
     return (
         <div>
             <h1>Questão</h1>
             <div>
-                <span>{questao?.enunciado}</span>
+                <span>{questao?.id} - {questao?.enunciado}</span>
+                <ul>
+                    {renderizarRespostas()}
+                </ul>
             </div>
         </div>
     )
