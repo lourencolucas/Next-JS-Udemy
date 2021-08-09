@@ -6,6 +6,7 @@
 ## Projetos
 - Exercicios: Guia para introdução ao React;
 - Tabuleiro: Mini projeto para criação de um tabuleiro usando Next.js e React;
+- Next Básico: Introdução ao Next.JS de forma básica trabalhando os principais conceitos.
 ## Para instalar as dependências dev dos projetos
 ```bash
 npm install
