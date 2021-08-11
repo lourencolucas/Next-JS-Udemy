@@ -1,4 +1,4 @@
-export default function _outraRota() {
+export default function OutraRota() {
     return (
         <div>
             <h1>Outra Rota _outraRota</h1>

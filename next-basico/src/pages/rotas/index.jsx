@@ -1,7 +1,7 @@
 import router from 'next/router'
 import Link from 'next/link'
 
-export default function rotas() {
+export default function Rotas() {
     function navegacaoSimples(url) {
         router.push(url)
     }
@@ -20,13 +20,13 @@ export default function rotas() {
         <div>
             <h1>Rotas index</h1>
             <ul>
-                <Link href="/rotas/params?nome=leonardo&id=3">
+                <Link href="/rotas/params?nome=leonardo&id=3" passHref>
                     <li>Params</li>
                 </Link>
-                <Link href="/rotas/123/buscar">
+                <Link href="/rotas/123/buscar" passHref>
                     <li>Buscar</li>
                 </Link>
-                <Link href="/rotas/123/Daniel">
+                <Link href="/rotas/123/Daniel" passHref>
                     <li>Daniel</li>
                 </Link>
             </ul>

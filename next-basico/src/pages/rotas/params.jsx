@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-export default function params() {
+export default function Params() {
     const router = useRouter()
     const id = router.query.id
     const nome = router.query.nome
@@ -12,7 +12,7 @@ export default function params() {
         <div>
             <h1>Rotas params:</h1>
             <h2> ID: {id} e Nome: {nome}</h2>
-            <Link href="/rotas">
+            <Link href="/rotas" passHref>
                 <button>Voltar</button>
             </Link>
         </div>
