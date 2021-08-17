@@ -5,8 +5,8 @@
     background-color: chocolate;
     padding: 15px;
     /* Temp */
-    width: 200px;
-    height: 300px;
+    width: var(--area-porta-largura);
+    height: var(--area-porta-altura);
 
 }
 
