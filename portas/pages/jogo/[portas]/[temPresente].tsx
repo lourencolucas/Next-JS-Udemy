@@ -20,7 +20,7 @@ export default function Jogo() {
         const temPresenteValido = temPresente >= 1 && temPresente <= portas
 
         setValido(qtdePortasValidas && temPresenteValido)
-    }, [portas])
+    }, [portas, router.query.portas, router.query.temPresente])
     // recebendo dados das rotas
     useEffect(() => {
         const portas = +router.query.portas
@@ -43,7 +43,7 @@ export default function Jogo() {
             }
             </div>
             <div className={styles.botoes}>
-                <Link href="/">
+                <Link href="/" passHref>
                     <button>Reiniciar Jogo</button>
                 </Link>
             </div>
