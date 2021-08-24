@@ -8,6 +8,7 @@
 - Tabuleiro: Mini projeto para criação de um tabuleiro usando Next.js e React;
 - Next Básico: Introdução ao Next.JS de forma básica trabalhando os principais conceitos.
 - Portas: Criando o jogo da porta premiada trabalhando os conceitos do Next.
+- Renderezação: Trabalhando os conceitos de renderização do Next de forma prática.
 ## Para instalar as dependências dev dos projetos
 ```bash
 npm install
