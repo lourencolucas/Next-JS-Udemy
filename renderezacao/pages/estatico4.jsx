@@ -14,7 +14,11 @@ export default function Estatico4(props) {
     console.log('[Client] Renderizando o componente...')
     function renderizarProdutos() {
         return props.produtos.map(produto => {
-            return <li key={produto.id}>{produto.nome} por R${produto.preco}</li>
+            return (
+                <li key={produto.id}>
+                   {produto.id} - {produto.nome} por R${produto.preco}
+                </li>
+            )
         })
     }
 
