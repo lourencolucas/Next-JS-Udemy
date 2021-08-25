@@ -21,3 +21,7 @@ npm run dev
 # or
 yarn dev
 ```
+## Adicionando TypeScript no projeto
+```bash
+npm install --save-dev @types/react
+```
