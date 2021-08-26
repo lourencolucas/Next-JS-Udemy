@@ -7,7 +7,7 @@ export async function getStaticPaths() {
     })
 
     return {
-        fallback: false, //404
+        fallback: false, // false => 404/ true = Renderiza
         paths
     }
 }
