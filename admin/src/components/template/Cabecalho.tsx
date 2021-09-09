@@ -1,5 +1,5 @@
 import useAppData from "../../data/hook/useAppData";
-import AvatarUsuario from "./AvatarUsuário";
+import AvatarUsuario from "./AvatarUsuario";
 import BotaoAlternarTema from "./BotaoAlternarTema";
 import Titulo from "./Titulo";
 
